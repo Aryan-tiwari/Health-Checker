@@ -14,7 +14,7 @@ func main()  {
 		Flags:[]cli.Flag{
 			&cli.StringFlag{
 				Name: "domain",
-				Aliases:[]string{"d"},
+				Aliases:[]string{"d"}, 
 				Usage: "Domain to check",
 				Required: true,
 			},
